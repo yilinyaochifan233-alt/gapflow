@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# AWS credentials
+.aws/
+credentials
+
+# Kiro / IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
